@@ -1,0 +1,65 @@
+:root {
+    --bg-color: #000000ec;
+    --nav-color: #ffffff2f;
+    --nav-hover:rgb(25, 221, 25);
+    --nav-text-color: #030d22;
+    --bg-drop-down:black;
+    --h1-color:rgb(238, 217, 217);
+    --p-color:green;
+    --a-color:purple;
+    --c1: yellow;
+    --c2: yellow;
+    --c3: yellow;
+    --c4: yellow;
+    --c5: yellow;
+}
+
+.container-list {
+
+    margin-top:20px;
+    background: var(--nav-color);
+    height: 35px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    width: fit-content;
+    height: fit-content;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(5, 200px);
+}
+
+.list a, .list div {
+    text-align: center;
+    font-size: 30px;
+    color: var(--nav-text-color);
+}
+
+.list a:hover, .to-drop a:hover {
+    animation: umfla 1s ease-out;
+    font-size: 30px;
+    background-color:var(--nav-hover);
+}
+
+.drop-down:hover {
+    animation: umfla 1s ease-out;
+    background-color:var(--nav-hover);
+}
+
+.to-drop {
+    margin-top:-6px;
+    width: fit-content;
+    text-align: center;
+    background: var(--bg-drop-down);
+    display: none;
+    position: absolute;
+}
+
+.to-drop a {
+    width: 200px;
+}
