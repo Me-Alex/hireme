@@ -1,0 +1,22 @@
+:root {
+    --bg-color: #000000ec;
+    --nav-color: #ffffff2f;
+    --nav-hover:rgb(25, 221, 25);
+    --nav-text-color: #030d22;
+    --bg-drop-down:black;
+    --h1-color:rgb(238, 217, 217);
+    --p-color:green;
+    --a-color:purple;
+    --button-color:rgb(143, 27, 27);
+    --button-bg-color:rgb(51, 38, 38);
+    --button-color-hover:rgb(68, 47, 47);
+    --button-bg-color-hover:rgb(143, 129, 129);
+
+    --c1: yellow;
+    --c2: yellow;
+    --c3: yellow;
+    --c4: yellow;
+    --c5: yellow;
+    --display:none;
+    --animation:rotate-color;
+}

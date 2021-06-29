@@ -8,14 +8,13 @@
         border: 0;
     }
     .container-list {
-    
+        width: fit-content;
+        height: fit-content;
         margin-top: 20px;
         background: var(--nav-color);
-        height: 35px;
     }
     .list {
         width: 100vw;
-        height: fit-content;
         display: grid;
         grid-template-columns: auto;
     }

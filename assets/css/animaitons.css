@@ -1,0 +1,40 @@
+@keyframes animatie {
+    from {
+        opacity: 0;
+        margin-top: 78px;
+    }
+    to {
+        opacity: 1;
+        margin-top: inherit;
+    }
+}
+
+@keyframes umfla {
+    25% {
+        width: 250px;
+    }
+    50% {
+        width: 150px;
+    }
+    100% {
+        width: 200px;
+    }
+}
+
+@keyframes rotate-color {
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+@keyframes mareste {
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(360deg);
+    }
+}

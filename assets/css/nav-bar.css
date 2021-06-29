@@ -1,18 +1,3 @@
-:root {
-    --bg-color: #000000ec;
-    --nav-color: #ffffff2f;
-    --nav-hover:rgb(25, 221, 25);
-    --nav-text-color: #030d22;
-    --bg-drop-down:black;
-    --h1-color:rgb(238, 217, 217);
-    --p-color:green;
-    --a-color:purple;
-    --c1: yellow;
-    --c2: yellow;
-    --c3: yellow;
-    --c4: yellow;
-    --c5: yellow;
-}
 
 .container-list {
 
@@ -40,7 +25,12 @@
     color: var(--nav-text-color);
 }
 
-.list a:hover, .to-drop a:hover {
+.list a:hover {
+    animation: umfla 1s ease-out;
+    font-size: 30px;
+    background-color:var(--nav-hover);
+}
+.to-drop a:hover {
     animation: umfla 1s ease-out;
     font-size: 30px;
     background-color:var(--nav-hover);
@@ -50,14 +40,23 @@
     animation: umfla 1s ease-out;
     background-color:var(--nav-hover);
 }
-
+.drop-down{
+    cursor: pointer;
+    height: fit-content;
+}
 .to-drop {
+    z-index: 1;
     margin-top:-6px;
     width: fit-content;
     text-align: center;
     background: var(--bg-drop-down);
-    display: none;
+    display: var(--display);
     position: absolute;
+}
+.show{
+    --display:grid;
+    justify-content: center;
+    align-items:center;
 }
 
 .to-drop a {

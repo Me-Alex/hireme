@@ -1,0 +1,52 @@
+.dark {
+    --bg-color: #000000ec;
+    --nav-color: #8164642f;
+    --nav-hover: rgb(148, 140, 140);
+    --nav-text-color: #82db77;
+    --bg-drop-down: rgb(0, 0, 0);
+    --h1-color: rgb(25, 14, 141);
+    --p-color: green;
+    --a-color: purple;
+    --c1: yellow;
+    --c2: yellow;
+    --c3: yellow;
+    --c4: yellow;
+    --c5: yellow;
+    transition: background-color ease-in 1s;
+}
+
+.light {
+    --bg-color: #ffffffec;
+    --nav-color: #f1f1f1;
+    --nav-hover: rgba(206, 201, 201, 0.877);
+    --nav-text-color: #000611;
+    --bg-drop-down: #f1f1f1;
+    --h1-color: rgb(68, 124, 150);
+    --p-color: green;
+    --a-color: purple;
+    --c1: yellow;
+    --c2: yellow;
+    --c3: yellow;
+    --c4: yellow;
+    --c5: yellow;
+    transition: background-color ease-in 1s;
+
+}
+
+.solar {
+    --bg-color: #6da128ec;
+    --nav-color: #15cec52f;
+    --nav-hover: rgb(49, 117, 10);
+    --nav-text-color: #383f4b;
+    --bg-drop-down: #15cec52f;
+    --h1-color: rgb(218, 241, 9);
+    --p-color: green;
+    --a-color: purple;
+    --c1: yellow;
+    --c2: yellow;
+    --c3: yellow;
+    --c4: yellow;
+    --c5: yellow;
+    transition: background-color ease-in 1s;
+
+}
