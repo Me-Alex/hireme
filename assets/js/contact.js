@@ -16,6 +16,7 @@ submit.onclick = () => {
         } else {
             email = input[1].value;
             subject=input[2].value;
+            message=input[3].value;
             localStorage.setItem('nume', input[0].value);
             localStorage.setItem('email', input[1].value);
             Email.send({
@@ -33,7 +34,7 @@ submit.onclick = () => {
             if (!t)
                 alert('email:' + email + 'not valide');
             else
-                alert("email was sent \n your email is " + email + "");
+                alert("email was sent \n your email is " + email + "\n"+message);
             break;
         }
         console.log(input[i].value);
