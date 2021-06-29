@@ -26,18 +26,18 @@
 }
 
 .list a:hover {
-    animation: umfla 1s ease-out;
+    animation: var(--animation-umfla) 1s ease-out;
     font-size: 30px;
     background-color:var(--nav-hover);
 }
 .to-drop a:hover {
-    animation: umfla 1s ease-out;
+    animation: var(--animation-umfla) 1s ease-out;
     font-size: 30px;
     background-color:var(--nav-hover);
 }
 
 .drop-down:hover {
-    animation: umfla 1s ease-out;
+    animation: var(--animation-umfla) 1s ease-out;
     background-color:var(--nav-hover);
 }
 .drop-down{

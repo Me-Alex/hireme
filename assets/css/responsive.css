@@ -1,44 +1,146 @@
 @media screen and (max-width:1080px) {
     body {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         background: var(--bg-color);
-        height: 90vh;
+        height: 70vh;
         margin: 0;
         padding: 0;
         border: 0;
     }
-    .container-list {
-        width: fit-content;
+    .hamburger {
+        display: flex;
+        justify-content: center;
+    }
+    .menue {
+        cursor: pointer;
+        display: inherit;
+    }
+    h1, h2, h3 {
+        color: var(--h1-color);
+    }
+    p {
+        color: var(--p-color);
+    }
+    .center-this {
         height: fit-content;
-        margin-top: 20px;
-        background: var(--nav-color);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-container {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-list {
+        background: var(--bg-color);
+        display: none;
+        height: fit-content;
+    }
+    .container-list2 {
+        opacity: 1;
+        background: var(--bg-color);
+        display: grid;
+        position: absolute;
+        width: 99vw;
+        z-index: 1;
+        height: 70vh;
+    }
+    .container {
+        display: grid;
+        align-items: center;
+        width: ;
+        height: 86vh;
+        margin: 0;
     }
     .list {
-        width: 100vw;
         display: grid;
         grid-template-columns: auto;
     }
-    .list a, .list div {
-        font-size: 30px;
-        color: var(--nav-text-color);
+    .profile {
+        text-align: center;
     }
-    .list a:hover, .to-drop a:hover {
-        animation: umfla 1s ease-out;
-        font-size: 30px;
-        background-color: var(--nav-hover);
+    /* .img {
+        display: flex;
+        justify-content: center;
+    } */
+    .img img:hover {
+        /* animation: var(--animation) 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate; */
     }
-    .drop-down:hover {
-        animation: umfla 1s ease-out;
-        background-color: var(--nav-hover);
+    .img img {
+        width: 10%;
+        height: auto;
+        border-radius: 50%;
     }
-    .to-drop {
-        margin-top: -6px;
-        width: fit-content;
-        background: var(--bg-drop-down);
-        display: none;
+    a {
+        text-decoration: none;
+    }
+    .text {
+        height: 77vh;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        animation-name: var(--animation);
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        /* animation-name:umfla;
+        animation-duration:2s; */
+    }
+    .text h1 {
+        font-size: 70px;
+    }
+    h1:hover {
+        animation-name: mareste;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    footer a, p {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    /*making progress bar for skills so easy*/
+    .skill-progres-bar {
+        width: 60vw;
+        height: 10px;
+        background-color: red;
+    }
+    .skill-progres-bar p {
         position: absolute;
+        margin: auto;
+        /* right: 90px;
+        margin-top: -58px; */
     }
-    .to-drop a {
-        width: 200px;
+    .skill-actual-progres {
+        width: 90%;
+        height: 10px;
+        background-color: blue;
+    }
+    .flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    :root {
+        --animation: f;
+        --animation-umfla: mareste;
+    }
+    .list a:hover {
+        animation: none;
+        font-size: 30px;
+        background-color:var(--nav-hover);
+    }
+    .to-drop a:hover {
+        animation: none;
+        font-size: 30px;
+        background-color:var(--nav-hover);
+    }
+    
+    .drop-down:hover {
+        animation: none;
+        background-color:var(--nav-hover);
     }
 }

@@ -10,21 +10,31 @@
 }
 
 .contact-container input {
-    width: 224px;
-    height:25px;
+    width: 324px;
+    height:35px;
 }
 
 .contact-container input:focus {
-    color: yellow;
-    border-style: none;
-    width: 224px;
-    height:25px;
+    border:solid red 2px;
+    outline: none;
+    color: black;
+    width: 324px;
+    height:35px;
 }
+textarea{
+    width: 324px;
+    height:35px;
+}
+textarea:focus{
+    text-emphasis: bold;
+    border:solid red 2px;
+    outline: none;
+    color: black;
+    width: 324px;
+    height:35px;
 
+}
 .submit input {
-    width: 50px;
-    height: 20px;
-    float: right;
     border: 0;
     margin: 0;
     padding: 0;
@@ -33,9 +43,6 @@
 }
 
 .submit input:hover {
-    width: 50px;
-    height: 20px;
-    float: right;
     border: 0;
     margin: 0;
     padding: 0;

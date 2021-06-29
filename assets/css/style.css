@@ -90,8 +90,18 @@ footer a, p {
     justify-content: center;
     align-items: center;
 }
-
+.hamburger{
+    display: none;
+}
 /*making progress bar for skills so easy*/
+::-webkit-scrollbar{
+    background-color: red;
+    width: 1px;
+  
+}
+::-webkit-scrollbar-thumb{
+    background: yellow;
+}
 
 .skill-progres-bar {
     width: 60vw;

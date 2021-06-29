@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <script src="https://kit.fontawesome.com/b8095d2c99.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +19,9 @@
 </head>
 
 <body>
-
+    <div class="hamburger">
+        <h1 class="menue">&#9776</h1>
+    </div>
     <div class="container-list">
         <div class="list">
             <a href="index.html">Home</a>
@@ -43,20 +47,22 @@
     </div>
     <div class="contact">
         <div class="contact-container">
-            <div class=" input name padding">
-                <input type="text" placeholder="Name">
-            </div>
-            <div class="input email padding">
-                <input type="email" name="email" placeholder="email" id="">
-            </div>
-            <div class="subiject padding">
-                <textarea name="" id="" cols="30" placeholder="subject" rows="10"></textarea>
-            </div>
-            
-            <div class="submit padding">
-                <input type="submit" value="Sent">
+            <form action="">
+                <div class=" input name padding">
+                    <input class="input1" type="text" value="" placeholder="Name">
+                </div>
+                <div class="input email padding">
+                    <input class="input1" type="email" id="email" name="email" placeholder="email" id="">
+                </div>
+                <div class="subiject padding">
+                    <textarea class="input1" name="" id="" cols="30" placeholder="subject" rows="10"></textarea>
+                </div>
 
-            </div>
+                <div class="submit padding">
+                    <input id="submit" type="submit" value="Submit">
+
+                </div>
+            </form>
         </div>
     </div>
 
@@ -70,4 +76,7 @@
     </footer>
 </body>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/contact.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
 </html>
