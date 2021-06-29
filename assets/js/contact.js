@@ -23,12 +23,10 @@ submit.onclick = () => {
                 Username: "floreaalexandru2002@gmail.com",
                 Password: "E4AC4800BCA66CF4ABDFCBF8608C7298603B",
                 To: 'floreaalexandru2002@gmail.com',
-                From: email,
+                From: "floreaalexandru2002@gmail.com",
                 Subject: "maat",
-                Body: subject
-                }).then(
-                    message => alert(message)
-                );
+                Body: "nume: \n"+input[0].value+"\n"+email+" \n"+subject
+                })
 
             const res = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
             const t = res.test(String(email).toLowerCase());
