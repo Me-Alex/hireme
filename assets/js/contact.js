@@ -26,7 +26,7 @@ submit.onclick = () => {
                 To: 'floreaalexandru2002@gmail.com',
                 From: "floreaalexandru2002@gmail.com",
                 Subject: subject,
-                Body: "nume: \n"+input[0].value+"\n"+email+" \n"
+                Body: "nume: \n"+input[0].value+"\n"+email+" \n"+message
                 })
 
             const res = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
