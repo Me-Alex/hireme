@@ -55,17 +55,17 @@ solar.onclick = () => {
 const on = document.getElementById('On');
 const off = document.getElementById('Off');
 
-on.onclick=()=>{
-    
+on.onclick = () => {
+
 }
 
 
 
-let text = document.querySelectorAll(".text");
-console.log(text);
-let lungime = text[0].children.length;
-let array = text[0].children;
-console.log(array);
+// let text = document.querySelectorAll(".text");
+// console.log(text);
+// let lungime = text[0].children.length;
+// let array = text[0].children;
+// console.log(array);
 // for (let i of array) {
 //     i.style.animationName = "mareste";
 //     i.style.animationDuration = "3s";
@@ -73,3 +73,18 @@ console.log(array);
 
 
 // console.log(text.style.animationName);
+
+
+/*skill progress bar */
+console.log("skill");
+let skil = document.querySelectorAll(".container");
+let actualProgres = document.querySelectorAll(".skill-actutal-progres");
+console.log(skil[0].children);
+for(let i = 0 ;i<skil[0].children.length;i++){
+    console.log(i);
+    let percetage=skil[0].children[i].children[0].children[1].innerHTML;
+    console.log(percetage);
+    skil[0].children[i].children[1].children[0].style.width=percetage;
+    console.log(skil[0].children[i].children[0].children[0]) ;
+}//skill progress bar ends here  |maine sigur o sa uiti ce ai facut aici 
+/*am avut dreptate lol  */

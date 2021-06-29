@@ -17,7 +17,6 @@
 .contact-container input:focus {
     color: yellow;
     border-style: none;
-    outline: none;
     width: 224px;
     height:25px;
 }

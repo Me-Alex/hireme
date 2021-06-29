@@ -1,7 +1,7 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: var(--bg-color);
-    height: 90vh;
+    height: 70vh;
     margin: 0;
     padding: 0;
     border: 0;
@@ -14,29 +14,36 @@ h1, h2, h3 {
 p {
     color: var(--p-color);
 }
-.center-this{
-    height: 80vh;
-    display:grid;
-    justify-content:center;
-    align-items: center;
 
+.center-this {
+    height: 80vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
+
+.first-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
-    width: 80%;
-    height: 90%;
+    display: grid;
+    align-items: center;
+    width: ;
+    height: 86vh;
     margin: 0;
 }
 
 .profile {
-    display: grid;
-    justify-content: center;
     text-align: center;
 }
 
-.img {
+/* .img {
     display: flex;
     justify-content: center;
-}
+} */
 
 .img img:hover {
     animation: var(--animation) 1s;
@@ -77,8 +84,34 @@ h1:hover {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
-footer{
+
+footer a, p {
     display: grid;
     justify-content: center;
     align-items: center;
+}
+
+/*making progress bar for skills so easy*/
+
+.skill-progres-bar {
+    width: 60vw;
+    height: 10px;
+    background-color: red;
+}
+
+.skill-progres-bar p {
+    position: absolute;
+    margin: auto;
+    /* right: 90px;
+    margin-top: -58px; */
+}
+
+.skill-actual-progres {
+    width: 90%;
+    height: 10px;
+    background-color: blue;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
 }
