@@ -133,6 +133,9 @@
         font-size: 30px;
         background-color:var(--nav-hover);
     }
+    .to-drop {
+        position: relative;
+    }
     .to-drop a:hover {
         animation: none;
         font-size: 30px;
