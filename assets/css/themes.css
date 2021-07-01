@@ -17,6 +17,8 @@
     --c4: yellow;
     --c5: yellow;
     transition: background-color ease-in 1s;
+    --border-input-textarea:rgb(217, 255, 0);
+
 }
 
 .light {
@@ -37,6 +39,8 @@
     --c3: yellow;
     --c4: yellow;
     --c5: yellow;
+    --border-input-textarea:rgb(0, 0, 0);
+
     transition: background-color ease-in 1s;
 
 }
@@ -60,5 +64,7 @@
     --c4: yellow;
     --c5: yellow;
     transition: background-color ease-in 1s;
+    --border-input-textarea:rgb(32, 255, 11);
+
 
 }

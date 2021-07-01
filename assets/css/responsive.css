@@ -146,4 +146,24 @@
         animation: none;
         background-color:var(--nav-hover);
     }
+    .box-with-projects{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .projects{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .projects img{
+        height: 300px;
+    }
+    .project-item {
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }

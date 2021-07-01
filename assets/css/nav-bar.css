@@ -16,7 +16,7 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: repeat(5, 200px);
+    grid-template-columns: repeat(6, 200px);
 }
 
 .list a, .list div {

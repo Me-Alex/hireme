@@ -2,6 +2,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: var(--bg-color);
     height: 70vh;
+}
+
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -90,16 +93,19 @@ footer a, p {
     justify-content: center;
     align-items: center;
 }
-.hamburger{
+
+.hamburger {
     display: none;
 }
+
 /*making progress bar for skills so easy*/
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     background-color: red;
     width: 1px;
-  
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
     background: yellow;
 }
 
@@ -121,7 +127,8 @@ footer a, p {
     height: 10px;
     background-color: blue;
 }
-.flex{
+
+.flex {
     display: flex;
     justify-content: space-between;
 }

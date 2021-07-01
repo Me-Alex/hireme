@@ -1,0 +1,41 @@
+.box-with-projects {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    height: 90vh;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects img {
+    width: 300px;
+    height: 200px;
+}
+
+.project-item {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.project-item:hover{
+    background-color: rgb(187, 180, 180);
+}
+.project-item p {
+    display: inline;
+    width: 90%;
+    overflow: hidden;
+}
+.project-item h1 {
+    padding: px;
+}
